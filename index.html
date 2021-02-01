@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Calculadora</title>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/png"
+      href="https://github.com/Davidoff2103/Proyecto-DAW1/blob/main/imagenes/873934.png?raw=true" />
+
+  </head>
+  <script type="text/javascript" src="indexJS.js"></script>
+  <link href="indexCSS.css" rel="stylesheet" type="text/css">
+
+  <body>
+    <header>
+      <h1><u>CALCULADORA DE WE DOMOTICS</u></h1>
+    </header>
+    <div id='componentes'>
+      <article>
+        <h1>Calculadora de CORE</h1>
+        Numero:
+        <input type="text" id="pantalla" onclick="vaciar()">
+
+        <h2>Info sobre el numero</h2>
+
+        <h3>Operaciones unitarias</h3>
+        <button id="cuadrado" onclick="cuadrado()">x<sup>2</sup></button>
+        <button id="modulo" onclick="mod()">mod</button>
+        <button id="factorial" onclick="fact()">n!</button>
+
+        <h3>Operaciones binarias</h3>
+        <button id="suma" onclick="add()">+</button>
+        <button id="multiplicación" onclick="mul()">*</button>
+        <button id="igual" onclick="eq()">=</button>
+
+        <h3>Operaciones en formato CSV</h3>
+        <button id="sumatorio" onclick="sumatorio()">Σx</button>
+        <button id="ordenar" onclick="ordenar()">ordenar</button>
+        <button id="revertir" onclick="revertir()">revertir</button>
+        <button id="quitar" onclick="quitar()">quitar</button>
+      </article>
+      <nav>
+        <img src="https://github.com/Davidoff2103/Proyecto-DAW1/blob/main/imagenes/we%20domotics.jpg?raw=true"
+          width="200" height="83" alt="WE Domotics" />
+      </nav>
+      <aside>
+        <img src="https://github.com/Davidoff2103/Proyecto-DAW1/blob/main/imagenes/we%20domotics.jpg?raw=true"
+          width="200" height="83" alt="WE Domotics" />
+      </aside>
+    </div>
+    <footer>© WE DOMOTICS</footer>
+  </body>
+
+</html>
